@@ -72,8 +72,18 @@ nav{
 }
 
 .portfolio-title{
+  display: flex;
+  justify-content: center;
   padding-top: 90px;
+  padding-bottom: 8px;
   font-size: 32px;
   color: #000000;
+  margin: 0 auto;
+  border-bottom: 3px solid #ec715f;
+  width: 70px;
+}
+
+.portfolio-sentence{
+  padding-top: 30px;
   text-align: center;
 }
