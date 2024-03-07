@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="UTF-8" />
+    <script src="https://kit.fontawesome.com/0ddefc95e8.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width,intitial-scale=1.0">
     <script src="https://kit.fontawesome.com/0ddefc95e8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="MySite.css" />
@@ -12,58 +13,74 @@
   <body>
     <header>
       <nav>
-        <img class="mysite-logo" src="img/logo.png">
+        <a href="#visual"><img class="mysite-logo" src="img/logo.png"></a>
         <ul class="nav-item">
-          <li class="nav-list-item">Portfolio</li>
-          <li class="nav-list-item">Feature</li>
-          <li class="nav-list-item">Profile</li>
-          <li class="nav-list-item">Contact</li>
+          <li class="nav-list-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-list-item"><a href="#feature">Feature</a></li>
+          <li class="nav-list-item"><a href="#profile">Profile</a></li>
+          <li class="nav-list-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <div class="main-visual">
-        <p class="main-title">Lorem Ipsum</p>
-        <p class="sub-title">simply dummy text of the printing</p>
-      </div>
+      <section id="visual">
+        <div class="main-visual">
+          <p class="main-title">Lorem Ipsum</p>
+          <p class="sub-title">simply dummy text of the printing</p>
+        </div>
+      </section>
 
-      <div class="portfolio">
-        <div class="portfolio-content">
-          <p class="portfolio-title">Portfolio</p>
-          <p class="portfolio-sentence">
+      <section id="portfolio">
+        <div class="portfolio">
+          <div class="portfolio-content">
+            <p class="portfolio-title">Portfolio</p>
+            <p class="portfolio-sentence">
+              It is a long established fact that a reader will be distracted by the readable<br>
+              content of a page when looking at its layout.<br>
+              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+            </p>
+
+            <div class="production">
+              <div class="portfolio-item">
+                <img class="portfolio-image" src="img/sketch.jpg">
+              </div>
+
+              <div class="portfolio-item">
+                <img class="portfolio-image" src="img/websuku.png">
+              </div>
+
+              <div class="portfolio-item">
+                <img class="portfolio-image" src="img/write.jpg">
+              </div>
+
+              <div class="portfolio-item">
+                <img class="portfolio-image" src="img/webcamp.png">
+              </div>
+
+              <div class="portfolio-item">
+                <img class="portfolio-image" src="img/talk.jpg">
+              </div>
+
+              <div class="portfolio-item">
+                <img class="portfolio-image" src="img/webcamp-mother.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="feature">
+        <div class="feature-content">
+          <p class="feature-title">Feature</p>
+          <p class="feature-sentence">
             It is a long established fact that a reader will be distracted by the readable<br>
             content of a page when looking at its layout.<br>
             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
           </p>
-
-          <div class="production">
-            <div class="portfolio-item">
-              <img class="portfolio-image" src="img/sketch.jpg">
-            </div>
-
-            <div class="portfolio-item">
-              <img class="portfolio-image" src="img/websuku.png">
-            </div>
-
-            <div class="portfolio-item">
-              <img class="portfolio-image" src="img/write.jpg">
-            </div>
-
-            <div class="portfolio-item">
-              <img class="portfolio-image" src="img/webcamp.png">
-            </div>
-
-            <div class="portfolio-item">
-              <img class="portfolio-image" src="img/talk.jpg">
-            </div>
-
-            <div class="portfolio-item">
-              <img class="portfolio-image" src="img/webcamp-mother.png">
-            </div>
-          </div>
         </div>
-      </div>
+      </section>
+
 
     </main>
   </body>

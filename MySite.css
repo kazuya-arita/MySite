@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #fafafa;
+}
+
 header{
   width: 100%;
   height: 70px;
@@ -32,11 +38,9 @@ nav{
 }
 
 .nav-list-item{
-  font-size: 16px;
   list-style: none;
   display: inline-block;
   margin: 0px 30px;
-  color: #fafafa;
 }
 
 .main-visual{
@@ -104,4 +108,26 @@ nav{
   height: 250px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+.feature-content{
+  width: 980px;
+}
+
+.feature-title{
+  width: 70px;
+  margin: 0 auto;
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #ec715f;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-sentence{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
