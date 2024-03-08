@@ -112,6 +112,7 @@ nav{
 
 .feature-content{
   width: 980px;
+  margin: 0 auto;
 }
 
 .feature-title{
@@ -131,3 +132,30 @@ nav{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.feature-item{
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.part{
+  width: 320px;
+  height: auto;
+  padding-right: 10px;
+}
+
+.icon{
+  font-size: 60px;
+  text-align: center;
+}
+
+.part-title{
+  font-size: 20px;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
