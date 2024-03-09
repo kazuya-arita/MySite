@@ -159,3 +159,78 @@ nav{
   text-align: center;
 }
 
+.profile{
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.profile-content{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-title{
+  width: 70px;
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #ec715f;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.profile-sentence{
+  padding-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.main-profile{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.profile-icon{
+  width: 512px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.author{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+.profile-item{
+  width: 512px;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.introduction{
+  padding-top: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.my-skill{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skill-item{
+  padding-top: 5px;
+  font-size: 16px;
+  color: #000000;
+}
