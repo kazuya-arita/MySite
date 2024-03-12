@@ -234,3 +234,28 @@ nav{
   font-size: 16px;
   color: #000000;
 }
+
+.contact{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-title{
+  width: 70px;
+  padding-top: 90px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0 auto;
+  border-bottom: 3px solid #ec715f;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-sentence{
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-top: 30px;
+}
