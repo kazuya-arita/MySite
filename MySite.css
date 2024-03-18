@@ -96,14 +96,26 @@ nav{
   padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.portfolio-item{
+.portfolio-item0,
+.portfolio-item1,
+.portfolio-item2
+.portfolio-item3,
+.portfolio-item4,
+.portfolio-item5{
   width: 300px;
   height: 250px;
 }
 
-.portfolio-image{
+.portfolio-image0,
+.portfolio-image1,
+.portfolio-image2,
+.portfolio-image3,
+.portfolio-image4,
+.portfolio-image5,
+.portfolio-image6{
   width: 300px;
   height: 250px;
   padding-right: 10px;
@@ -375,5 +387,27 @@ footer{
 
 .sub-title{
   font-size: 18px;
+}
+
+.portfolio-content{
+  width: 90%;
+}
+
+.production{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.portfolio-item0,
+.portfolio-item2,
+.portfolio-item4{
+  display: none;
+}
+
+.portfolio-image0,
+.portfolio-image2,
+.portfolio-image4{
+  display: none;
 }
 }
