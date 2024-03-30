@@ -410,4 +410,8 @@ footer{
 .portfolio-image4{
   display: none;
 }
+
+.feature-content{
+  width: 70%;
+}
 }
