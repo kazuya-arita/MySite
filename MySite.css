@@ -435,4 +435,9 @@ footer{
   flex-wrap: wrap;
 }
 
+.name, .introduction, .my-skill, .skill-item{
+  display: flex;
+  justify-content: center;
+}
+
 }
