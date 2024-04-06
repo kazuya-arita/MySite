@@ -440,4 +440,13 @@ footer{
   justify-content: center;
 }
 
+.contact{
+  width: 90%;
+}
+
+.contact-tool{
+  display: block;
+  width: 100%;
+}
+
 }
